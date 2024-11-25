@@ -10,6 +10,6 @@ Our communication plan is to use discord. We are going to try to communicate dai
  Roles
 Jezreel Mora (Front end) . Focus on frontend design (HTML/CSS/JavaScript) to build the user interface. Also will be working on the frontend of the web application by developing visual styles to the UI of our website. Help out the back end.
  
-Xin Lee  (Back end) – Responsible for developing all the functional aspects of our web application. Make the backend logic (using Flask/Django) to process requests and manage the application.
+Xin Li  (Back end) – Responsible for developing all the functional aspects of our web application. Make the backend logic (using Flask/Django) to process requests and manage the application.
  
 Revon  (Database manager) –take care of database and data management, ensuring the data is stored and retrieved correctly, help out with front and back end.
