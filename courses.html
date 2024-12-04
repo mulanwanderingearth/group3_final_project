@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Courses</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f8f9fa;
+      }
+      header {
+        background-color: #4f5a79;
+        color: white;
+        padding: 1rem;
+        text-align: center;
+      }
+      nav ul {
+        list-style: none;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        background-color: #333;
+        margin: 0;
+      }
+      nav ul li {
+        margin: 0 1rem;
+      }
+      nav ul li a {
+        color: white;
+        text-decoration: none;
+      }
+      main {
+        padding: 2rem;
+      }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 1rem;
+        background-color: white;
+      }
+      th, td {
+        border: 1px solid #ddd;
+        padding: 0.8rem;
+        text-align: left;
+      }
+      th {
+        background-color: #4f5a79;
+        color: white;
+      }
+      tbody tr:hover {
+        background-color: #f1f1f1;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Courses</h1>
+      <p>Explore our wide range of courses and take your learning experience to the next level.</p>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="teacher.html">Teacher Portal</a></li>
+        <li><a href="student.html">Student Portal</a></li>
+        <li><a href="register.html">Register</a></li>
+        <li><a href="courses.html">Courses</a></li>
+      </ul>
+    </nav>
+    <main>
+      <table>
+        <thead>
+          <tr>
+            <th>Course Name</th>
+            <th>Description</th>
+            <th>Subject</th>
+            <th>Credits</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><a href="/courses/english">English</a></td>
+            <td>Focuses on improving language, writing, and literature analysis skills.</td>
+            <td>Language Arts</td>
+            <td>3</td>
+          </tr>
+          <tr>
+            <td><a href="/courses/math">Math</a></td>
+            <td>Covers fundamental and advanced mathematical concepts and problem-solving techniques.</td>
+            <td>Mathematics</td>
+            <td>4</td>
+          </tr>
+          <tr>
+            <td><a href="/courses/computer-science">Computer Science</a></td>
+            <td>Introduction to programming, algorithms, and data structures.</td>
+            <td>Technology</td>
+            <td>4</td>
+          </tr>
+          <tr>
+            <td><a href="/courses/web-applications">Web Applications</a></td>
+            <td>Learn to design, develop, and deploy modern web applications.</td>
+            <td>Technology</td>
+            <td>3</td>
+          </tr>
+        </tbody>
+      </table>
+    </main>
+    <footer>
+      <p>&copy; 2024 College Course Management System</p>
+    </footer>
+  </body>
+</html>

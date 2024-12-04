@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Register for Courses</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f8f9fa;
+    }
+    header {
+      background-color: #4f5a79;
+      color: white;
+      text-align: center;
+      padding: 1rem 0;
+    }
+    main {
+      padding: 2rem;
+    }
+    form {
+      max-width: 600px;
+      margin: 0 auto;
+      background: white;
+      padding: 2rem;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    label {
+      display: block;
+      margin-bottom: 0.5rem;
+      font-weight: bold;
+    }
+    input, select, textarea {
+      width: 100%;
+      padding: 0.8rem;
+      margin-bottom: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    button {
+      background-color: #4f5a79;
+      color: white;
+      border: none;
+      padding: 1rem 2rem;
+      font-size: 1rem;
+      cursor: pointer;
+      border-radius: 4px;
+    }
+    button:hover {
+      background-color: #4f5a79;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Register for Courses</h1>
+    <p>Fill out the form below to register for your desired courses.</p>
+  </header>
+  <main>
+    <form action="submit_registration.php" method="POST">
+      
+      <label for="firstName">First Name:</label>
+      <input type="text" id="firstName" name="first_name" placeholder="Enter your first name" required>
+      
+      <label for="lastName">Last Name:</label>
+      <input type="text" id="lastName" name="last_name" placeholder="Enter your last name" required>
+      
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+      
+      <label for="phone">Phone Number:</label>
+      <input type="tel" id="phone" name="phone" placeholder="Enter your phone number">
+      
+      <label for="courses">Select Course:</label>
+      <select id="courses" name="course" required>
+        <option value="English">English</option>
+        <option value="Math">Math</option>
+        <option value="Computer Science">Computer Science</option>
+        <option value="Web Applications">Web Applications</option>
+      </select>
+      
+      <label for="comments">Additional Comments:</label>
+      <textarea id="comments" name="comments" rows="4" placeholder="Any special requests or notes"></textarea>
+      
+      <button type="submit">Submit Registration</button>
+    </form>
+  </main>
+</body>
+</html>

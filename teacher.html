@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Teacher Portal</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f8f9fa;
+    }
+    header {
+      background-color: #4f5a79;
+      color: white;
+      text-align: center;
+      padding: 1rem 0;
+    }
+    main {
+      padding: 2rem;
+    }
+    .card {
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      background: white;
+      padding: 1.5rem;
+      margin-bottom: 1.5rem;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    .card h2 {
+      margin-top: 0;
+      color: #4f5a79;
+    }
+    .card p {
+      margin: 0.5rem 0;
+    }
+    .btn {
+      display: inline-block;
+      margin-top: 1rem;
+      background-color: #4f5a79;
+      color: white;
+      text-decoration: none;
+      padding: 0.8rem 1.5rem;
+      border-radius: 4px;
+      font-size: 1rem;
+    }
+    .btn:hover {
+      background-color: #4f5a79;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 1rem;
+    }
+    th, td {
+      padding: 0.8rem;
+      border: 1px solid #ddd;
+      text-align: left;
+    }
+    th {
+      background-color: #4f5a79;
+      color: white;
+    }
+    tbody tr:hover {
+      background-color: #f1f1f1;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Teacher Portal</h1>
+    <p>Manage your courses, grades, and students here. Keep track of your teaching activities.</p>
+  </header>
+  <main>
+    <section class="card">
+      <h2>Your Profile</h2>
+      <p><strong>Name:</strong> Dr. John Smith</p>
+      <p><strong>Email:</strong> john.smith@university.com</p>
+      <p><strong>Employee ID:</strong> T-234567</p>
+      <a href="edit-profile.html" class="btn">Edit Profile</a>
+    </section>
+
+    <section class="card">
+      <h2>Your Courses</h2>
+      <ul>
+        <li><strong>English 101:</strong> Mondays & Wednesdays, 10:00 AM - 11:30 AM</li>
+        <li><strong>Math 201:</strong> Tuesdays & Thursdays, 1:00 PM - 2:30 PM</li>
+        <li><strong>Computer Science 301:</strong> Fridays, 9:00 AM - 12:00 PM</li>
+      </ul>
+      <a href="courses.html" class="btn">View All Courses</a>
+    </section>
+
+    <section class="card">
+      <h2>Enrolled Students</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Student Name</th>
+            <th>Email</th>
+            <th>Course</th>
+            <th>Action</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>John Doe</td>
+            <td>john.doe@example.com</td>
+            <td>English 101</td>
+            <td><a href="student-profile.html" class="btn">View Profile</a></td>
+          </tr>
+          <tr>
+            <td>Jane Roe</td>
+            <td>jane.roe@example.com</td>
+            <td>Math 201</td>
+            <td><a href="student-profile.html" class="btn">View Profile</a></td>
+          </tr>
+          <tr>
+            <td>Michael Black</td>
+            <td>michael.black@example.com</td>
+            <td>Computer Science 301</td>
+            <td><a href="student-profile.html" class="btn">View Profile</a></td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="card">
+      <h2>Grade Management</h2>
+      <p>Manage grades for your courses here. Update or view student performance.</p>
+      <a href="grades.html" class="btn">Manage Grades</a>
+    </section>
+
+    <section class="card">
+      <h2>Recent Announcements</h2>
+      <p><strong>[04/12/2024]</strong> Grades for English 101 midterm have been posted. Check the Grades section for details.</p>
+      <p><strong>[02/12/2024]</strong> Reminder: Final exam for Math 201 will be held on 15th December.</p>
+      <a href="announcements.html" class="btn">View All Announcements</a>
+    </section>
+  </main>
+</body>
+</html>
