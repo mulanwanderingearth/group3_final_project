@@ -39,6 +39,5 @@ app.use(studentRoutes);
 app.get('/', (req, res) => res.redirect('/login));
 app.get('/index', (req, res) => res.render('index', { title: 'Login' }));
 app.get('/signup', (req, res) => res.render('signup', { title: 'Sign Up' }));
-app.get('/create', (req, res) => res.render('schedule', { title: 'Schedule' }));
 
 module.exports = app;
